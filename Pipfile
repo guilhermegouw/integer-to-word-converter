@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 
 [dev-packages]
+coverage = "*"
+genbadge = {extras = ["all"], version = "*"}
 
 [requires]
 python_version = "3.10"
